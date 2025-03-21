@@ -1,0 +1,41 @@
+<vector>
+
+Biblioteka do pracy z dynamicznymi tablicami (wektorami).
+
+    Funkcje:
+        push_back() – Dodanie elementu na końcu.
+        size() – Zwraca liczbę elementów w wektorze.
+        at() – Dostęp do elementu przez indeks (z zabezpieczeniem).
+        clear() – Usunięcie wszystkich elementów.
+        pop_back() – Usunięcie ostatniego elementu
+
+<iostream>
+
+Biblioteka do obsługi wejścia i wyjścia.
+
+    Funkcje:
+        std::cout – Wyjście na ekran (drukowanie na konsoli).
+        std::cin – Wejście z klawiatury.
+        std::cerr – Wyjście błędów.
+        std::clog – Wyjście logów.
+        std::getline() – Odczytanie całej linii tekstu z wejścia
+<string>
+
+Biblioteka do pracy ze stringami (łańcuchami znaków).
+
+    Funkcje:
+        std::string – Typ przechowujący łańcuchy znaków.
+        length() lub size() – Zwraca długość stringa.
+        append() – Dodanie tekstu na końcu.
+        substr() – Pobranie podciągu.
+        find() – Znalezienie pierwszego wystąpienia podłańcucha.
+<cmath>
+
+Biblioteka matematyczna.
+
+    Funkcje:
+        std::sin(), std::cos(), std::tan() – Funkcje trygonometryczne.
+        std::sqrt() – Pierwiastek kwadratowy.
+        std::pow() – Potęgowanie.
+        std::abs() – Wartość bezwzględna.
+        std::log() – Logarytm naturalny.
